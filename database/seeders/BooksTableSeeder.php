@@ -32,7 +32,7 @@ class BooksTableSeeder extends Seeder
 
         // 登録
         foreach($books as $book) {
-            \App\models\Book::create($book);
+            \App\Models\Book::create($book);
         }
     }
 }
